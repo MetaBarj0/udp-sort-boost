@@ -1,0 +1,11 @@
+---
+Checks: '-*,bugprone-*,cert-*,cppcoreguidelines-*,hicpp-*,-modernize-*,-readability-*,-google-*,-llvm-*,-misc-*,-performance-*'
+
+WarningsAsErrors: ''
+HeaderFilterRegex: ''
+AnalyzeTemporaryDtors: false
+FormatStyle:     file
+User:            meta
+
+CheckOptions:
+  hicpp-braces-around-statements.ShortStatementLines: 2
